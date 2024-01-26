@@ -1,0 +1,65 @@
+body {
+  background-color: #5f5e5b;
+  margin: 0;
+  font-family: 'Open Sans', sans-serif;
+}
+
+.form {
+  background-image: url(jungle.webp);
+    
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  background-size: cover;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  margin: 0;
+  padding: 20px;
+  border-radius: 8px;
+  color: #333;
+  text-align: center;
+}
+
+.form-group {
+  max-width: 600px;
+  margin: 20px auto;
+  padding: 30px;
+  background-color: #10a839;
+  border: 1px solid rgba(174, 14, 14, 0.179);
+  border-radius: 10px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  position: relative;
+}
+
+h1 {
+  font-size: 32px;
+  font-weight: bold;
+  color: #ffffff;
+  text-align: center;
+  text-transform: uppercase;
+  margin: 0 0 20px;
+  padding: 10px 20px;
+  background-color: #6b83a778;
+  border-radius: 30px;
+}
+
+.btn-bd-primary {
+  display: inline-block;
+  background-color: #5194b5;
+  border: 4px double #5c86c9;
+  color: #eeeeee;
+  text-align: center;
+  font-size: 15px;
+  padding: 15px 30px;
+  border-radius: 10px;
+  transition: all 0.5s;
+  cursor: pointer;
+}
+
+.btn-bd-primary:hover {
+  background-color: #5c86c9;
+  color: #ffffff;
+}
+
+ 
